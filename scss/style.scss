@@ -49,8 +49,6 @@ article p {
 }
 
 
-
-
 ul {
     display: flex;
     list-style-type: none;
@@ -115,39 +113,19 @@ div a {
     padding-bottom: 25px;
 } 
     
-
-
-.button{
-    &__ver{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 30px;
-        background-color: $color-principal;
-        text-decoration: none;
-        font-style: white;
-        box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.151);
-    }
-
-    &__ver:hover{
-        background-color:$color-principal;
-        transition: .3s;
-        transform: scale(1.1);
-        transition: all 0.5s;
-    }
-
-    
+@mixin button {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 80px;
+    border-style: none;
+    font-family: $font-principal;
+    font-weight: 700;
+    text-align: center;
 }
-
-
-.foto__producto{
-   background-position: center;
-   background-size: 300px;
-}
-
 
 .button__ver{
+    @include button;
     width: 100px;
     height: 40px;
     border-radius: 80px;
@@ -159,7 +137,25 @@ div a {
     font-family: $font-principal;
     font-weight: 700;
     text-align: center;
+
+    &:hover{
+        @include button;
+        background-color:$color-principal;
+        transition: .2s;
+        transform: scale(1.1);
+        transition: all 0.2s;
+    }   
 }
+
+
+
+.foto__producto{
+   background-position: center;
+   background-size: 300px;
+}
+
+
+
 
 .fotoProducto{
     margin-top: 10px;
@@ -266,6 +262,22 @@ div a {
 }
 
 
+
+.buy__button {
+    @include button;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: $color-destacado;
+    color: white;
+    padding: 10px;
+
+    &__button:hover{
+        background-color: #1d2b13;
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+}
+
 .form{
     margin-top: 30px;    
     border-radius: 40px;
@@ -302,11 +314,7 @@ div a {
     }
     
     &__button{
-        display: block;
-        width: 100px;
-        height: 40px;
-        border-radius: 80px;
-        border-style: none;
+        @include button;
         margin-bottom: 20px;
         background-color: $color-principal;
         color: white;
@@ -317,9 +325,12 @@ div a {
 
 .socialMedia{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 40px;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+     
 
     &__titulo{
         font-family: $font-secundaria;
@@ -330,11 +341,15 @@ div a {
         margin-bottom: 0;
         color: black;
     }
+
+    &__icon{
+        width: 15px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-self: start;
+    }
+
 }
-
-
-
-
 
 .producto {
     display: inline-flex;
@@ -393,27 +408,9 @@ div a {
     font-size: 30px;
 }
 
-.buy__button{
-    display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 80px;
-    border-style: none;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    background-color: $color-destacado;
-    color: white;
-    padding: 10px;
-    font-family: $font-principal;
-    font-weight: 700;
-    text-align: center;
-}
 
-.buy__button:hover{
-    background-color: #1d2b13;
-    transform: scale(1.1);
-    transition: all 0.5s;
-}
+
+
 
 .profileImg{
     width: 450px;
@@ -428,6 +425,7 @@ div a {
     flex-wrap: wrap;
     align-items: flex-end;
     margin-top: 50px;
+
     &__descripcion{
         display: block;
         justify-content: flex-end;
