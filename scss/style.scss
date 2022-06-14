@@ -147,6 +147,25 @@ div a {
     }   
 }
 
+.button__buy {
+    @include button;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: $color-destacado;
+    color: white;
+    padding: 10px;
+
+    &__buy:hover{
+        background-color: #1d2b13;
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+}
+
+.button__text{
+    font: $font-principal;
+    color: $color-secundario;
+}
 
 
 .foto__producto{
@@ -263,20 +282,7 @@ div a {
 
 
 
-.buy__button {
-    @include button;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    background-color: $color-destacado;
-    color: white;
-    padding: 10px;
 
-    &__button:hover{
-        background-color: #1d2b13;
-        transform: scale(1.1);
-        transition: all 0.5s;
-    }
-}
 
 .form{
     margin-top: 30px;    

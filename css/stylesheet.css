@@ -313,6 +313,29 @@ div a {
     transform: scale(1.1);
     transition: all 0.2s; }
 
+.button__buy {
+  display: block;
+  width: 100px;
+  height: 40px;
+  border-radius: 80px;
+  border-style: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: #2D441D;
+  color: white;
+  padding: 10px; }
+  .button__buy__buy:hover {
+    background-color: #1d2b13;
+    transform: scale(1.1);
+    transition: all 0.5s; }
+
+.button__text {
+  font: "Plus Jakarta Sans", sans-serif;
+  color: #F7F0E4; }
+
 .foto__producto {
   background-position: center;
   background-size: 300px; }
@@ -396,25 +419,6 @@ div a {
   padding-right: 0;
   padding-left: 0;
   margin: 0; }
-
-.buy__button {
-  display: block;
-  width: 100px;
-  height: 40px;
-  border-radius: 80px;
-  border-style: none;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  background-color: #2D441D;
-  color: white;
-  padding: 10px; }
-  .buy__button__button:hover {
-    background-color: #1d2b13;
-    transform: scale(1.1);
-    transition: all 0.5s; }
 
 .form {
   margin-top: 30px;
