@@ -131,7 +131,7 @@ div a {
     border-radius: 80px;
     border-style: none;
     margin: 0px;
-    background-color: $color-principal;
+    background-color: $color-opacidad;
     color: white;
     padding: 10px;
     font-family: $font-principal;
@@ -140,7 +140,7 @@ div a {
 
     &:hover{
         @include button;
-        background-color:$color-principal;
+        background-color:$color-opacidad;
         transition: .2s;
         transform: scale(1.1);
         transition: all 0.2s;
