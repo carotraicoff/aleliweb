@@ -1,5 +1,4 @@
 @import 'variables';
-@import 'mediaqueries';
 @import 'grids';
 
 
@@ -12,13 +11,13 @@
 
 body{
     background-color: $color-secundario;
-    margin-left: 26px;
-    margin-right: 26px;
+    margin-left: 1.625em;
+    margin-right: 1.625em;
 }
 
 article p {
     font-family: $font-principal;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -43,7 +42,7 @@ article p {
         align-items: flex-end;
         justify-content: flex-end;
         font-family: $font-principal;
-        font-size: 16px;
+        font-size: 1em;
         text-decoration: none;
     } 
 }
@@ -58,7 +57,7 @@ ul {
 }
 
 li {
-    padding: 15px;
+    padding: 0.938em;
     color: black;
     text-decoration: none;
     text-align: right;
@@ -77,20 +76,20 @@ div a {
     text-decoration: none;
     color: black;
     font-family: $font-principal;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .destacado{
 
     &__titulo{
         font-family: $font-secundaria;
-        font-size: 120px;
-        margin-bottom: 0px;
+        font-size: 7.5em;
+        margin-bottom: 0;
     }
 
     &__subtitulo{
         font-family: $font-principal;
-        font-size: 25px;
+        font-size: 1.563em;
         justify-content: flex-start;
     }
 }
@@ -98,8 +97,8 @@ div a {
 
 .seccion__titulo{
     font-family: $font-secundaria;
-    font-size: 120px;
-    margin-bottom: 20px;
+    font-size: 7.5em;
+    margin-bottom: 1.25em;
 }
 
 .italic{
@@ -111,15 +110,15 @@ div a {
     display: flex;
     justify-content: center;
     font-family: $font-principal;
-    padding-bottom: 25px;
-    padding-top: 40px;
+    padding-bottom: 1.563em;
+    padding-top: 2.5em;
 } 
     
 @mixin button {
     display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 80px;
+    width: 6.25em;
+    height: 2.5em;
+    border-radius: 5em;
     border-style: none;
     font-family: $font-principal;
     font-weight: 700;
@@ -128,14 +127,14 @@ div a {
 
 .button__ver{
     @include button;
-    width: 100px;
-    height: 40px;
-    border-radius: 80px;
+    width:  6.25em;
+    height: 2.5em;
+    border-radius: 5em;
     border-style: none;
-    margin: 0px;
+    margin: 0;
     background-color: $color-opacidad;
     color: white;
-    padding: 10px;
+    padding: 0.625em;
     font-family: $font-principal;
     font-weight: 700;
     text-align: center;
@@ -151,11 +150,11 @@ div a {
 
 .button__buy {
     @include button;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 3.125em;
+    margin-bottom: 1.25em;
     background-color: $color-destacado;
     color: white;
-    padding: 10px;
+    padding: 0.625em;
 
     &__buy:hover{
         background-color: #1d2b13;
@@ -172,15 +171,14 @@ div a {
 
 .foto__producto{
    background-position: center;
-   background-size: 300px;
+   background-size: 18.75em;
 }
 
 
 
-
 .fotoProducto{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
     align-items: center;
 }
 
@@ -188,13 +186,13 @@ div a {
     display: flex;
     text-align: center;
     font-family: $font-principal;
-    font-size: 16px;
+    font-size: 1em;
     background-color: black;
-    border-radius: 25px;
+    border-radius: 1.563em;
     color: white;
     width: fit-content;
-    padding: 15px;
-    margin-left: 100px;
+    padding: 0.938em;
+    margin-left:  6.25em;
 }
 
 .servicios{
@@ -207,7 +205,7 @@ div a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 80px;
+        padding: 5em;
         width: 33.3%;
     }
     
@@ -215,13 +213,13 @@ div a {
         font-family: $font-principal;
         font-weight: 700;
         justify-content: center;
-        font-size: 25px;
+        font-size: 1.563em;
         padding: 0;
         margin: 0;
     }
     
     &__icon{ 
-        width: 350px;
+        width: 18.75em;
     }
     
 }
@@ -229,14 +227,14 @@ div a {
 
 .footer{
     align-items: baseline;
-    padding-top: 150px;
+    padding-top: 9.375em;
 
     &__navegacion{
         display: flex;
         align-items: center;
         justify-content: center;
         font-family: $font-principal;
-        font-size: 14px;
+        font-size: 0.875em;
         color: black;
     }
 }
@@ -251,8 +249,8 @@ div a {
 .contacto {
     &__container{
         display: block;
-        margin-bottom: 125px;
-        margin-left: 15px;
+        margin-bottom: 7.813em;
+        margin-left: 0.938em;
     }
     
     &__info{
@@ -262,19 +260,19 @@ div a {
     &__titulo{
         font-family: $font-secundaria;
         font-weight: 700;
-        font-size: 45px;
+        font-size: 2.813em;
         padding: 0;
         margin-bottom: 0;
         color: $color-principal;
-        letter-spacing: 1px;
+        letter-spacing: 0.063em;
     }
     
     &__parrafo{
         font-family: $font-principal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 1.563em;
         padding-bottom: 0;
-        padding-top: 10px;
+        padding-top: 0.625em;
         padding-right: 0;
         padding-left: 0;
         margin: 0;
@@ -283,47 +281,44 @@ div a {
 }
 
 
-
-
-
 .form{
-    margin-top: 30px;    
-    border-radius: 40px;
-    padding-left: 0px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 1.875em;    
+    border-radius: 2.5em;
+    padding-left: 0;
+    padding-right: 1.25em;
+    padding-top: 0.938em;
+    padding-bottom: 0.938em;
 
     &__request{
         display: block;
         font-family: $font-principal;
         font-weight: 700;
-        font-size: 18px;
-        margin-bottom: 15px;
+        font-size: 1.125em;
+        margin-bottom: 0.938em;
     }
     
     &__input{
-        width: 400px;
-        height: 40px;
-        border-radius: 100px;
+        width: 25em;
+        height: 2.5em;
+        border-radius:  6.25em;
         border-style: none;
-        margin-bottom: 20px;
-        padding: 15px;
+        margin-bottom: 1.25em;
+        padding: 0.938em;
     }
     
     &__inputText{
-        width: 400px;
-        height: 100px;
-        border-radius: 30px;
+        width: 25em;
+        height:  6.25em;
+        border-radius: 1.875em;
         border-style: none;
-        margin-bottom: 20px;
-        padding: 15px;
+        margin-bottom: 1.25em;
+        padding: 0.938em;
         resize: vertical;
     }
     
     &__button{
         @include button;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         background-color: $color-principal;
         color: white;
     }
@@ -334,7 +329,7 @@ div a {
 .socialMedia{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
     align-items: flex-start;
     justify-content: space-evenly;
     
@@ -343,15 +338,15 @@ div a {
     &__titulo{
         font-family: $font-secundaria;
         font-weight: 700;
-        letter-spacing: 1px;
-        font-size: 35px;
+        letter-spacing: 0.063em;
+        font-size: 2.188em;
         padding: 0;
         margin-bottom: 0;
         color: black;
     }
 
     &__icon{
-        width: 15px;
+        width: 0.938em ;
         height: auto;
         flex-wrap: wrap;
         justify-self: start;
@@ -362,12 +357,12 @@ div a {
 .producto {
     display: inline-flex;
     justify-content: flex-start;
-    margin-top: 50px;
-    margin-bottom: 120px;
+    margin-top: 3.125em;
+    margin-bottom: 7.5em;
 
     &__img{
         width: 50em;
-        box-shadow: 0px 0px 10px $color-secundario;
+        box-shadow: 0em 0em 0.625em $color-secundario;
     }
     
     &__img:hover{
@@ -378,34 +373,34 @@ div a {
 
     &__descripcion{
         display: block;
-        margin-left: 50px;
+        margin-left: 3.125em;
     }
     
     &__titulo{
         font-family: $font-secundaria;
         font-weight: 700;
-        letter-spacing: 1px;
-        font-size: 45px;
-        margin-bottom: 15px;
+        letter-spacing: 0.063em;
+        font-size: 2.813em;
+        margin-bottom: 0.938em;
         color: black;
-        margin-top: 0px;
-        padding-top: 0px;
+        margin-top: 0;
+        padding-top: 0;
     }
     
     &__subtitulo{
         font-family: $font-principal;
         font-weight: 400;
-        font-size: 18px;
-        margin-bottom: 5px;
+        font-size: 1.125em;
+        margin-bottom: 0.313em;
     }
     
     &__texto{
         font-family: $font-principal;
         font-weight: 400;
-        font-size: 14px;
-        margin-bottom: 35px;
-        margin-top: 0px;
-        width: 600px;
+        font-size: 0.875em;
+        margin-bottom: 2.188em;
+        margin-top: 0;
+        width: 37.5em;
     }
 }
 
@@ -413,16 +408,12 @@ div a {
 .precio{
     font-family: $font-principal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
-
-
-
-
 .profileImg{
-    width: 450px;
-    border-radius: 220px 220px 0px 0px;
+    width: 28.125em;
+    border-radius: 13.75em 13.75em 0em  0em;
     margin: 0;
     padding: 0;
 }
@@ -432,19 +423,21 @@ div a {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-end;
-    margin-top: 50px;
+    margin-top: 3.125em;
 
     &__descripcion{
         display: block;
-        justify-content: flex-end;
-        margin-left: 50px;   
+        justify-self: center;
+        align-self: center;
+        margin-left: 3.125em;   
+        margin-top: 6em;
     }
         
     &__titulo{
         font-family: $font-secundaria;
         font-weight: 700;
-        letter-spacing: 1px;
-        font-size: 45px;
+        letter-spacing: 0.063em;
+        font-size: 2.813em;
         margin: 0;
         padding: 0;
         color: black;
@@ -453,24 +446,24 @@ div a {
     &__subtitulo{
         font-family: $font-principal;
         font-weight: 400;
-        font-size: 25px;
-        margin-bottom: 5px;
+        font-size: 1.563em;
+        margin-bottom: 0.313em;
     }
         
     &__texto{
         display: inline-block;
         font-family: $font-principal;
         font-weight: 400;
-        font-size: 14px;
-        margin-bottom: 30px;
-        margin-top: 0px;
-        width: 600px;
+        font-size: 0.875em;
+        margin-bottom: 1.875em;
+        margin-top: 0;
+        width: 37.5em;
         text-align: left;
         }
     
     &__socialMedia{
-        display: flex;
-        justify-content: flex-start;
+        padding: 0em;
+        margin: 0em;
     }
 }
 
@@ -478,8 +471,395 @@ div a {
 .socialMedia__icon{
     display: flex;
     flex-wrap: wrap;
-    width: 45px;
+    width: 2.813em;
     padding: 0;
     margin: 0;
 }
 
+
+/* Media Queries */
+
+/* Dispositivos moviles */
+@media only screen and (max-width: 600px){
+
+    body{
+        background-color: #F7F0E4;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    ul {
+        display: inline-block;
+    }
+
+    .header__navegacion {
+        display: block;
+    }
+
+    .destacado__titulo{
+        font-size: 2.188em;
+    }
+
+    .destacado__subtitulo{
+        font-size: 1.125em;
+    }
+
+    .seccion__titulo{
+        font-size: 2.188em;
+    }
+
+    .galeria__titulo{
+        padding-top: 1.563em;
+        font-size: 1.125em;
+        padding-bottom: 0.625em;
+    } 
+
+    .grid__container{
+        display: grid;
+        grid-template-rows: 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em
+        21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em; 
+        grid-template-columns: 30em;
+        gap: 0.625em;
+        
+    }
+
+    .grid__uno{
+        grid-row:1/3;
+   }
+
+   .grid__dos{
+        grid-row: 3/5;
+        grid-column: 1;
+    }
+
+    .grid__tres{
+        grid-row: 5/7;
+        grid-column: 1;
+    }
+
+    .grid__cuatro{
+        grid-row: 7/9;
+        grid-column: 1;
+    }
+
+    .grid__cinco{
+        grid-row: 9/11;
+        grid-column: 1;
+    }
+
+    .grid__seis{
+        grid-row: 11/13;
+        grid-column: 1;
+    }
+
+    .grid__siete{
+        grid-row: 13/15;
+        grid-column: 1;
+    }
+
+    .grid__ocho{
+        grid-row: 15/17;
+        grid-column: 1;
+    }
+
+    .grid__nueve{
+        grid-row: 17/19;
+        grid-column: 1;
+    }
+
+    .grid__diez{
+        grid-row: 19/21;
+        grid-column: 1;
+    }
+
+    .grid__once{
+        grid-row: 21/23;
+        grid-column: 1;
+    }
+
+    .grid__doce{
+        grid-row: 23/25;
+        grid-column: 1;
+    }
+
+    .grid__trece{
+        grid-row: 25/27;
+        grid-column: 1;
+    }
+
+    .grid__catorce{
+        grid-row: 27/29;
+        grid-column: 1;
+    }
+
+    .grid__quince{
+        grid-row: 29/31;
+        grid-column: 1;
+    }
+
+    .grid__diecises{
+        grid-row: 31/33;
+        grid-column: 1;
+    }
+
+
+    .servicios{
+        &__item{
+            padding: 3em;
+            width: 100%;
+        }
+        
+        &__icon{ 
+            width: 12.75em;
+        }
+        
+    }
+
+    .profileImg{
+        width: 17.188em;
+        border-radius: 13.75em 13.75em 0em 0em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .aboutUs{
+        margin-top: 1.563em;
+        margin-left: 1em;
+    
+        &__descripcion{
+            display: block;
+            justify-self: center;
+            align-self: center;
+            margin-left: 0em;   
+            margin-top: 1em;
+        }
+            
+        &__titulo{
+            font-size: 2.188em;
+            margin-top: 0em;
+        }
+            
+        &__subtitulo{
+            font-size: 1.563em;
+            margin-bottom: 0.313em;
+        }
+            
+        &__texto{
+            width: 25em;
+            }
+        
+        &__socialMedia{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+    }
+    
+    .socialMedia__icon{
+        display: flex;
+        flex-wrap: wrap;
+        width: 2.813em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer{
+        align-items: flex-start;
+        padding-top: 9.375em;
+    
+        &__navegacion{
+            font-size: 0.75em;
+        }
+    }
+
+}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width:992px) {
+
+    body{
+        background-color: #F7F0E4;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    ul {
+        display: inline-block;
+    }
+
+    .header__navegacion {
+        display: block;
+    }
+
+    .destacado__titulo{
+        font-size: 2.813em;
+    }
+
+    .destacado__subtitulo{
+        font-size: 1.375em;
+    }
+
+    .seccion__titulo{
+        font-size: 2.813em;
+    }
+
+    .galeria__titulo{
+        padding-top: 1.563em;
+        font-size: 1.125em;
+        padding-bottom: 0.625em;
+    } 
+
+    .grid__container{
+        display: grid;
+        grid-template-rows: 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em ; 
+        grid-template-columns: 1fr 1fr;
+        gap: 0.625em;
+        
+    }
+
+    .grid__uno{
+        grid-row:1/3;
+   }
+
+   .grid__dos{
+        grid-row: 3/4;
+        grid-column: 1;
+    }
+
+    .grid__tres{
+        grid-row: 4/6;
+        grid-column: 1;
+    }
+
+    .grid__cuatro{
+        grid-row: 6/7;
+        grid-column: 1;
+    }
+
+    .grid__cinco{
+        grid-row: 7/8;
+        grid-column: 1;
+    }
+
+    .grid__seis{
+        grid-row: 8/10;
+        grid-column: 1;
+    }
+
+    .grid__siete{
+        grid-row:10/11;
+        grid-column: 1;
+    }
+
+    .grid__ocho{
+        grid-row: 11/13;
+        grid-column: 1;
+    }
+
+    .grid__nueve{
+        grid-row:  1/3;
+        grid-column: 2;
+    }
+
+    .grid__diez{
+        grid-row: 3/4;
+        grid-column: 2;
+    }
+
+    .grid__once{
+        grid-row: 4/6;
+        grid-column: 2;
+    }
+
+    .grid__doce{
+        grid-row: 6/7;
+        grid-column: 2;
+    }
+
+    .grid__trece{
+        grid-row: 7/8;
+        grid-column: 2;
+    }
+
+    .grid__catorce{
+        grid-row: 8/10;
+        grid-column: 2;
+    }
+
+    .grid__quince{
+        grid-row: 10/11;
+        grid-column: 2;
+    }
+
+    .grid__diecises{
+        grid-row: 11/13;
+        grid-column: 2;
+    }
+
+    .servicios{
+        &__item{
+            padding: 3em;
+            width: 100%;
+        }
+        
+        &__icon{ 
+            width: 12.75em;
+        }        
+    }
+
+    .profileImg{
+        width: 17.188em;
+        
+    }
+
+    .aboutUs{
+        margin-top: 1.563em;
+        margin-left: 1em;
+    
+        &__descripcion{
+            display: block;
+            justify-self: center;
+            align-self: center;
+            margin-left: 1em;   
+            margin-top: 1em;
+        }
+            
+        &__titulo{
+            font-size: 2.188em;
+            margin-top: 0em;
+        }
+            
+        &__subtitulo{
+            font-size: 1.2em;
+            margin-bottom: 0.25em;
+        }
+            
+        &__texto{
+            width: 25em;
+            }
+        
+        &__socialMedia{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+    }
+    
+    .socialMedia__icon{
+        display: flex;
+        flex-wrap: wrap;
+        width: 2.813em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer{
+        align-items: flex-start;
+        padding-top: 9.375em;
+    
+        &__navegacion{
+            font-size: 0.75em;
+        }
+    }
+
+}

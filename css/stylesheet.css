@@ -1,128 +1,5 @@
 /* TIPOGRAFIAS */
 /* PALETA DE COLORES */
-/* Media Queries */
-/* Dispositivos moviles */
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: #F7F0E4;
-    margin-left: 16px;
-    margin-right: 16px; }
-  ul {
-    display: inline-block; }
-  .header__navegacion {
-    display: block; }
-  .destacado__titulo {
-    font-size: 35px; }
-  .destacado__subtitulo {
-    font-size: 18px; }
-  .seccion__titulo {
-    font-size: 35px; }
-  .galeria__titulo {
-    padding-top: 25px;
-    font-size: 18px;
-    padding-bottom: 10px; }
-  .grid__container {
-    display: grid;
-    grid-template-rows: 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em  21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em;
-    grid-template-columns: 35em;
-    gap: 10px; }
-  .grid__uno {
-    grid-row: 1/3; }
-  .grid__dos {
-    grid-row: 3/5;
-    grid-column: 1; }
-  .grid__tres {
-    grid-row: 5/7;
-    grid-column: 1; }
-  .grid__cuatro {
-    grid-row: 7/9;
-    grid-column: 1; }
-  .grid__cinco {
-    grid-row: 9/11;
-    grid-column: 1; }
-  .grid__seis {
-    grid-row: 11/13;
-    grid-column: 1; }
-  .grid__siete {
-    grid-row: 13/15;
-    grid-column: 1; }
-  .grid__ocho {
-    grid-row: 15/17;
-    grid-column: 1; }
-  .grid__nueve {
-    grid-row: 17/19;
-    grid-column: 1; }
-  .grid__diez {
-    grid-row: 19/21;
-    grid-column: 1; }
-  .grid__once {
-    grid-row: 21/23;
-    grid-column: 1; }
-  .grid__doce {
-    grid-row: 23/25;
-    grid-column: 1; } }
-
-/* Tablets */
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-  body {
-    background-color: #F7F0E4;
-    margin-left: 16px;
-    margin-right: 16px; }
-  ul {
-    display: inline-block; }
-  .header__navegacion {
-    display: block; }
-  .destacado__titulo {
-    font-size: 45px; }
-  .destacado__subtitulo {
-    font-size: 22px; }
-  .seccion__titulo {
-    font-size: 45px; }
-  .galeria__titulo {
-    padding-top: 25px;
-    font-size: 18px;
-    padding-bottom: 10px; }
-  .grid__container {
-    display: grid;
-    grid-template-rows: 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px; }
-  .grid__uno {
-    grid-row: 1/3; }
-  .grid__dos {
-    grid-row: 3/5;
-    grid-column: 1; }
-  .grid__tres {
-    grid-row: 5/7;
-    grid-column: 1; }
-  .grid__cuatro {
-    grid-row: 7/9;
-    grid-column: 1; }
-  .grid__cinco {
-    grid-row: 9/11;
-    grid-column: 1; }
-  .grid__seis {
-    grid-row: 11/13;
-    grid-column: 1; }
-  .grid__siete {
-    grid-row: 1/3;
-    grid-column: 2; }
-  .grid__ocho {
-    grid-row: 3/5;
-    grid-column: 2; }
-  .grid__nueve {
-    grid-row: 5/7;
-    grid-column: 2; }
-  .grid__diez {
-    grid-row: 7/9;
-    grid-column: 2; }
-  .grid__once {
-    grid-row: 9/11;
-    grid-column: 2; }
-  .grid__doce {
-    grid-row: 11/13;
-    grid-column: 2; } }
-
 .grid, .grid__uno, .grid__dos, .grid__tres, .grid__cuatro, .grid__cinco, .grid__seis, .grid__siete, .grid__ocho, .grid__nueve, .grid__diez, .grid__once, .grid__doce, .grid__trece, .grid__catorce, .grid__quince, .grid__diecises {
   background-position: center;
   background-size: cover;
@@ -221,12 +98,12 @@
 
 body {
   background-color: #F7F0E4;
-  margin-left: 26px;
-  margin-right: 26px; }
+  margin-left: 1.625em;
+  margin-right: 1.625em; }
 
 article p {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   text-align: center; }
 
 .header {
@@ -244,7 +121,7 @@ article p {
     align-items: flex-end;
     justify-content: flex-end;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     text-decoration: none; }
 
 ul {
@@ -255,7 +132,7 @@ ul {
   text-align: left; }
 
 li {
-  padding: 15px;
+  padding: 0.938em;
   color: black;
   text-decoration: none;
   text-align: right; }
@@ -270,22 +147,22 @@ div a {
   text-decoration: none;
   color: black;
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 14px; }
+  font-size: 0.875em; }
 
 .destacado__titulo {
   font-family: "DM Serif Display", serif;
-  font-size: 120px;
-  margin-bottom: 0px; }
+  font-size: 7.5em;
+  margin-bottom: 0; }
 
 .destacado__subtitulo {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 25px;
+  font-size: 1.563em;
   justify-content: flex-start; }
 
 .seccion__titulo {
   font-family: "DM Serif Display", serif;
-  font-size: 120px;
-  margin-bottom: 20px; }
+  font-size: 7.5em;
+  margin-bottom: 1.25em; }
 
 .italic {
   font-style: italic; }
@@ -294,34 +171,34 @@ div a {
   display: flex;
   justify-content: center;
   font-family: "Plus Jakarta Sans", sans-serif;
-  padding-bottom: 25px;
-  padding-top: 40px; }
+  padding-bottom: 1.563em;
+  padding-top: 2.5em; }
 
 .button__ver {
   display: block;
-  width: 100px;
-  height: 40px;
-  border-radius: 80px;
+  width: 6.25em;
+  height: 2.5em;
+  border-radius: 5em;
   border-style: none;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   text-align: center;
-  width: 100px;
-  height: 40px;
-  border-radius: 80px;
+  width: 6.25em;
+  height: 2.5em;
+  border-radius: 5em;
   border-style: none;
-  margin: 0px;
+  margin: 0;
   background-color: #0000006b;
   color: white;
-  padding: 10px;
+  padding: 0.625em;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   text-align: center; }
   .button__ver:hover {
     display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 80px;
+    width: 6.25em;
+    height: 2.5em;
+    border-radius: 5em;
     border-style: none;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
@@ -333,18 +210,18 @@ div a {
 
 .button__buy {
   display: block;
-  width: 100px;
-  height: 40px;
-  border-radius: 80px;
+  width: 6.25em;
+  height: 2.5em;
+  border-radius: 5em;
   border-style: none;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 3.125em;
+  margin-bottom: 1.25em;
   background-color: #2D441D;
   color: white;
-  padding: 10px; }
+  padding: 0.625em; }
   .button__buy__buy:hover {
     background-color: #1d2b13;
     transform: scale(1.1);
@@ -356,24 +233,24 @@ div a {
 
 .foto__producto {
   background-position: center;
-  background-size: 300px; }
+  background-size: 18.75em; }
 
 .fotoProducto {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.625em;
+  margin-bottom: 0.625em;
   align-items: center; }
 
 .productos__comprar {
   display: flex;
   text-align: center;
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   background-color: black;
-  border-radius: 25px;
+  border-radius: 1.563em;
   color: white;
   width: fit-content;
-  padding: 15px;
-  margin-left: 100px; }
+  padding: 0.938em;
+  margin-left: 6.25em; }
 
 .servicios {
   display: flex;
@@ -384,27 +261,27 @@ div a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px;
+    padding: 5em;
     width: 33.3%; }
   .servicios__titulo {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
     justify-content: center;
-    font-size: 25px;
+    font-size: 1.563em;
     padding: 0;
     margin: 0; }
   .servicios__icon {
-    width: 350px; }
+    width: 18.75em; }
 
 .footer {
   align-items: baseline;
-  padding-top: 150px; }
+  padding-top: 9.375em; }
   .footer__navegacion {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 14px;
+    font-size: 0.875em;
     color: black; }
 
 .navLi {
@@ -413,8 +290,8 @@ div a {
 
 .contacto__container {
   display: block;
-  margin-bottom: 125px;
-  margin-left: 15px; }
+  margin-bottom: 7.813em;
+  margin-left: 0.938em; }
 
 .contacto__info {
   display: block; }
@@ -422,79 +299,79 @@ div a {
 .contacto__titulo {
   font-family: "DM Serif Display", serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 2.813em;
   padding: 0;
   margin-bottom: 0;
   color: #7C0808;
-  letter-spacing: 1px; }
+  letter-spacing: 0.063em; }
 
 .contacto__parrafo {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.563em;
   padding-bottom: 0;
-  padding-top: 10px;
+  padding-top: 0.625em;
   padding-right: 0;
   padding-left: 0;
   margin: 0; }
 
 .form {
-  margin-top: 30px;
-  border-radius: 40px;
-  padding-left: 0px;
-  padding-right: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px; }
+  margin-top: 1.875em;
+  border-radius: 2.5em;
+  padding-left: 0;
+  padding-right: 1.25em;
+  padding-top: 0.938em;
+  padding-bottom: 0.938em; }
   .form__request {
     display: block;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 15px; }
+    font-size: 1.125em;
+    margin-bottom: 0.938em; }
   .form__input {
-    width: 400px;
-    height: 40px;
-    border-radius: 100px;
+    width: 25em;
+    height: 2.5em;
+    border-radius: 6.25em;
     border-style: none;
-    margin-bottom: 20px;
-    padding: 15px; }
+    margin-bottom: 1.25em;
+    padding: 0.938em; }
   .form__inputText {
-    width: 400px;
-    height: 100px;
-    border-radius: 30px;
+    width: 25em;
+    height: 6.25em;
+    border-radius: 1.875em;
     border-style: none;
-    margin-bottom: 20px;
-    padding: 15px;
+    margin-bottom: 1.25em;
+    padding: 0.938em;
     resize: vertical; }
   .form__button {
     display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 80px;
+    width: 6.25em;
+    height: 2.5em;
+    border-radius: 5em;
     border-style: none;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     background-color: #7C0808;
     color: white; }
 
 .socialMedia {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
   align-items: flex-start;
   justify-content: space-evenly; }
   .socialMedia__titulo {
     font-family: "DM Serif Display", serif;
     font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 35px;
+    letter-spacing: 0.063em;
+    font-size: 2.188em;
     padding: 0;
     margin-bottom: 0;
     color: black; }
   .socialMedia__icon {
-    width: 15px;
+    width: 0.938em;
     height: auto;
     flex-wrap: wrap;
     justify-self: start; }
@@ -502,48 +379,48 @@ div a {
 .producto {
   display: inline-flex;
   justify-content: flex-start;
-  margin-top: 50px;
-  margin-bottom: 120px; }
+  margin-top: 3.125em;
+  margin-bottom: 7.5em; }
   .producto__img {
     width: 50em;
-    box-shadow: 0px 0px 10px #F7F0E4; }
+    box-shadow: 0em 0em 0.625em #F7F0E4; }
   .producto__img:hover {
     transform: scale(1.5);
     transition: all 0.5s;
     padding-left: 10em; }
   .producto__descripcion {
     display: block;
-    margin-left: 50px; }
+    margin-left: 3.125em; }
   .producto__titulo {
     font-family: "DM Serif Display", serif;
     font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 45px;
-    margin-bottom: 15px;
+    letter-spacing: 0.063em;
+    font-size: 2.813em;
+    margin-bottom: 0.938em;
     color: black;
-    margin-top: 0px;
-    padding-top: 0px; }
+    margin-top: 0;
+    padding-top: 0; }
   .producto__subtitulo {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 5px; }
+    font-size: 1.125em;
+    margin-bottom: 0.313em; }
   .producto__texto {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 35px;
-    margin-top: 0px;
-    width: 600px; }
+    font-size: 0.875em;
+    margin-bottom: 2.188em;
+    margin-top: 0;
+    width: 37.5em; }
 
 .precio {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
-  font-size: 30px; }
+  font-size: 1.875em; }
 
 .profileImg {
-  width: 450px;
-  border-radius: 220px 220px 0px 0px;
+  width: 28.125em;
+  border-radius: 13.75em 13.75em 0em  0em;
   margin: 0;
   padding: 0; }
 
@@ -552,40 +429,270 @@ div a {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-end;
-  margin-top: 50px; }
+  margin-top: 3.125em; }
   .aboutUs__descripcion {
     display: block;
-    justify-content: flex-end;
-    margin-left: 50px; }
+    justify-self: center;
+    align-self: center;
+    margin-left: 3.125em;
+    margin-top: 6em; }
   .aboutUs__titulo {
     font-family: "DM Serif Display", serif;
     font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 45px;
+    letter-spacing: 0.063em;
+    font-size: 2.813em;
     margin: 0;
     padding: 0;
     color: black; }
   .aboutUs__subtitulo {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
-    font-size: 25px;
-    margin-bottom: 5px; }
+    font-size: 1.563em;
+    margin-bottom: 0.313em; }
   .aboutUs__texto {
     display: inline-block;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    width: 600px;
+    font-size: 0.875em;
+    margin-bottom: 1.875em;
+    margin-top: 0;
+    width: 37.5em;
     text-align: left; }
   .aboutUs__socialMedia {
-    display: flex;
-    justify-content: flex-start; }
+    padding: 0em;
+    margin: 0em; }
 
 .socialMedia__icon {
   display: flex;
   flex-wrap: wrap;
-  width: 45px;
+  width: 2.813em;
   padding: 0;
   margin: 0; }
+
+/* Media Queries */
+/* Dispositivos moviles */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #F7F0E4;
+    margin-left: 1em;
+    margin-right: 1em; }
+  ul {
+    display: inline-block; }
+  .header__navegacion {
+    display: block; }
+  .destacado__titulo {
+    font-size: 2.188em; }
+  .destacado__subtitulo {
+    font-size: 1.125em; }
+  .seccion__titulo {
+    font-size: 2.188em; }
+  .galeria__titulo {
+    padding-top: 1.563em;
+    font-size: 1.125em;
+    padding-bottom: 0.625em; }
+  .grid__container {
+    display: grid;
+    grid-template-rows: 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em;
+    grid-template-columns: 30em;
+    gap: 0.625em; }
+  .grid__uno {
+    grid-row: 1/3; }
+  .grid__dos {
+    grid-row: 3/5;
+    grid-column: 1; }
+  .grid__tres {
+    grid-row: 5/7;
+    grid-column: 1; }
+  .grid__cuatro {
+    grid-row: 7/9;
+    grid-column: 1; }
+  .grid__cinco {
+    grid-row: 9/11;
+    grid-column: 1; }
+  .grid__seis {
+    grid-row: 11/13;
+    grid-column: 1; }
+  .grid__siete {
+    grid-row: 13/15;
+    grid-column: 1; }
+  .grid__ocho {
+    grid-row: 15/17;
+    grid-column: 1; }
+  .grid__nueve {
+    grid-row: 17/19;
+    grid-column: 1; }
+  .grid__diez {
+    grid-row: 19/21;
+    grid-column: 1; }
+  .grid__once {
+    grid-row: 21/23;
+    grid-column: 1; }
+  .grid__doce {
+    grid-row: 23/25;
+    grid-column: 1; }
+  .grid__trece {
+    grid-row: 25/27;
+    grid-column: 1; }
+  .grid__catorce {
+    grid-row: 27/29;
+    grid-column: 1; }
+  .grid__quince {
+    grid-row: 29/31;
+    grid-column: 1; }
+  .grid__diecises {
+    grid-row: 31/33;
+    grid-column: 1; }
+  .servicios__item {
+    padding: 3em;
+    width: 100%; }
+  .servicios__icon {
+    width: 12.75em; }
+  .profileImg {
+    width: 17.188em;
+    border-radius: 13.75em 13.75em 0em 0em;
+    margin: 0;
+    padding: 0; }
+  .aboutUs {
+    margin-top: 1.563em;
+    margin-left: 1em; }
+    .aboutUs__descripcion {
+      display: block;
+      justify-self: center;
+      align-self: center;
+      margin-left: 0em;
+      margin-top: 1em; }
+    .aboutUs__titulo {
+      font-size: 2.188em;
+      margin-top: 0em; }
+    .aboutUs__subtitulo {
+      font-size: 1.563em;
+      margin-bottom: 0.313em; }
+    .aboutUs__texto {
+      width: 25em; }
+    .aboutUs__socialMedia {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end; }
+  .socialMedia__icon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 2.813em;
+    padding: 0;
+    margin: 0; }
+  .footer {
+    align-items: flex-start;
+    padding-top: 9.375em; }
+    .footer__navegacion {
+      font-size: 0.75em; } }
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  body {
+    background-color: #F7F0E4;
+    margin-left: 1em;
+    margin-right: 1em; }
+  ul {
+    display: inline-block; }
+  .header__navegacion {
+    display: block; }
+  .destacado__titulo {
+    font-size: 2.813em; }
+  .destacado__subtitulo {
+    font-size: 1.375em; }
+  .seccion__titulo {
+    font-size: 2.813em; }
+  .galeria__titulo {
+    padding-top: 1.563em;
+    font-size: 1.125em;
+    padding-bottom: 0.625em; }
+  .grid__container {
+    display: grid;
+    grid-template-rows: 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em 21.875em;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.625em; }
+  .grid__uno {
+    grid-row: 1/3; }
+  .grid__dos {
+    grid-row: 3/4;
+    grid-column: 1; }
+  .grid__tres {
+    grid-row: 4/6;
+    grid-column: 1; }
+  .grid__cuatro {
+    grid-row: 6/7;
+    grid-column: 1; }
+  .grid__cinco {
+    grid-row: 7/8;
+    grid-column: 1; }
+  .grid__seis {
+    grid-row: 8/10;
+    grid-column: 1; }
+  .grid__siete {
+    grid-row: 10/11;
+    grid-column: 1; }
+  .grid__ocho {
+    grid-row: 11/13;
+    grid-column: 1; }
+  .grid__nueve {
+    grid-row: 1/3;
+    grid-column: 2; }
+  .grid__diez {
+    grid-row: 3/4;
+    grid-column: 2; }
+  .grid__once {
+    grid-row: 4/6;
+    grid-column: 2; }
+  .grid__doce {
+    grid-row: 6/7;
+    grid-column: 2; }
+  .grid__trece {
+    grid-row: 7/8;
+    grid-column: 2; }
+  .grid__catorce {
+    grid-row: 8/10;
+    grid-column: 2; }
+  .grid__quince {
+    grid-row: 10/11;
+    grid-column: 2; }
+  .grid__diecises {
+    grid-row: 11/13;
+    grid-column: 2; }
+  .servicios__item {
+    padding: 3em;
+    width: 100%; }
+  .servicios__icon {
+    width: 12.75em; }
+  .profileImg {
+    width: 17.188em; }
+  .aboutUs {
+    margin-top: 1.563em;
+    margin-left: 1em; }
+    .aboutUs__descripcion {
+      display: block;
+      justify-self: center;
+      align-self: center;
+      margin-left: 1em;
+      margin-top: 1em; }
+    .aboutUs__titulo {
+      font-size: 2.188em;
+      margin-top: 0em; }
+    .aboutUs__subtitulo {
+      font-size: 1.2em;
+      margin-bottom: 0.25em; }
+    .aboutUs__texto {
+      width: 25em; }
+    .aboutUs__socialMedia {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end; }
+  .socialMedia__icon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 2.813em;
+    padding: 0;
+    margin: 0; }
+  .footer {
+    align-items: flex-start;
+    padding-top: 9.375em; }
+    .footer__navegacion {
+      font-size: 0.75em; } }
